@@ -28,7 +28,7 @@ void button_task(void *arg)
              pedidoPedestre = true;
         }
 
-        vTaskDelay(pdMS_TO_TICKS(50));
+        vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
 
